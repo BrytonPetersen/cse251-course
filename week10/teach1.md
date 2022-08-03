@@ -26,7 +26,30 @@ Note: This is an option for compiling C++ programs if you don't have a compiler 
 
 ![](replit2.png)
 
+4) You need to "turn on" the option to compile programs using PThreads.  Click on the small menu button and select `show hidden files`.
+
+![](hidden_files.png)
+
+5) Next, select the `Makefile` file and add the following `-pthread` where hightlighted in the image below.
+
+![](pthreads_option.png)
+
 4) Copy `team1.cpp` content to `main.cpp` in repl.it
+
+
+### Compiling programs in replit.com (if the RUN button doesn't work)
+
+1) In the terminal window, type the following (It is dash small L, not dash one):
+
+```
+   > g++ <filename of your program>.cpp -lpthread
+```
+
+2) To run your program, type:
+
+```
+   > ./a.out
+```
 
 
 ### Issues with using Visual Studio 2019

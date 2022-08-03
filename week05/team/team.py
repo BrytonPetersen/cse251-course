@@ -8,7 +8,7 @@ Purpose: Check for prime values
 
 Instructions:
 
-- You can't use thread/process pools
+- You can't use thread pools or process pools
 - Follow the graph in I-Learn 
 - Start with PRIME_PROCESS_COUNT = 1, then once it works, increase it
 
@@ -20,7 +20,6 @@ import random
 
 #Include cse 251 common Python files
 from cse251 import *
-set_working_directory(__file__)
 
 PRIME_PROCESS_COUNT = 1
 

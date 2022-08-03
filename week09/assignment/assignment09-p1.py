@@ -15,10 +15,10 @@ import math
 from screen import Screen
 from maze import Maze
 import cv2
+import sys
 
 # Include cse 251 common Python files - Dont change
 from cse251 import *
-set_working_directory(__file__)
 
 SCREEN_SIZE = 800
 COLOR = (0, 0, 255)
